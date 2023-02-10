@@ -1,9 +1,11 @@
 import "./App.css";
 import Hero from "./components/Hero/Hero";
+import Programs from "./components/Programs/Programs"; //Needed to import this file compulsory it seems so
 function App() {
   return (
     <div className="App">
       <Hero />
+      <Programs />
     </div>
   );
 }

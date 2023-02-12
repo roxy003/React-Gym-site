@@ -5,6 +5,7 @@ import Reasons from "./components/Reasons/Reasons";
 import Plans from "./components/Plans/Plans";
 import Testimonials from "./components/Testimonials/Testimonials";
 import Join from "./components/Join/Join";
+import Footer from "./components/Footer/Footer";
 //Needed to import this file compulsory it seems so
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Plans />
       <Testimonials />
       <Join />
+      <Footer />
     </div>
   );
 }
